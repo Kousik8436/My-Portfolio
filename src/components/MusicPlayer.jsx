@@ -79,6 +79,12 @@ const MusicPlayer = () => {
     } while (nextIndex === currentTrackIndex && playlist.length > 1);
 
     setCurrentTrackIndex(nextIndex);
+    
+    if (wasPlaying) {
+      setIsPlaying(true);
+      setInfoText("Double tap to change the music");
+    }
+    
     setSourceAndMaybePlay(playlist[nextIndex], wasPlaying);
   };
 
@@ -116,15 +122,21 @@ const MusicPlayer = () => {
     return () => window.removeEventListener("keydown", handleVolumeKeys);
   }, []);
 
-  const handleDoubleTapMobile = () => {
+  const handleDoubleTapMobile = (e) => {
+    e.preventDefault();
     const now = Date.now();
     if (now - lastTapTime.current < 400) {
+      if (clickTimeout.current) {
+        clearTimeout(clickTimeout.current);
+        clickTimeout.current = null;
+      }
       shuffleNextTrack();
     }
     lastTapTime.current = now;
   };
 
-  const handleClick = () => {
+  const handleClick = (e) => {
+    e.preventDefault();
     if (clickTimeout.current) {
       clearTimeout(clickTimeout.current);
       clickTimeout.current = null;

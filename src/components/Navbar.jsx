@@ -65,8 +65,9 @@ export default function Navbar (){
       >
         <motion.div
           initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
+          animate={{ opacity: menuOpen ? 0 : 1, x: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
+          style={{ pointerEvents: menuOpen ? 'none' : 'auto' }}
         >
           <Logo />
         </motion.div>
@@ -113,15 +114,17 @@ export default function Navbar (){
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <motion.button
-            onClick={()=> setMenuOpen(true)} 
-            className='relative text-white text-3xl focus:outline-none p-2 rounded-lg hover:bg-white/10 transition-all duration-300' 
-            aria-label='open Menu'
-            whileHover={{ scale: 1.1, rotate: 90 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <IoMenu />
-          </motion.button>
+          {!menuOpen && (
+            <motion.button
+              onClick={()=> setMenuOpen(true)} 
+              className='relative text-white text-3xl focus:outline-none p-2 rounded-lg hover:bg-white/10 transition-all duration-300' 
+              aria-label='open Menu'
+              whileHover={{ scale: 1.1, rotate: 90 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <IoMenu />
+            </motion.button>
+          )}
         </motion.div>
         
         {/* Desktop CTA Button */}
