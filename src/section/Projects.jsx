@@ -10,6 +10,7 @@ const projectsData = [
     tech: "React • MongoDB • Express • Node.js",
     category: "Full Stack",
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+    github: "https://github.com/Kousik8436/Talent-IQ.git",
     live: "https://talent-iq-three-ruby.vercel.app/"
   },
   {
@@ -19,6 +20,7 @@ const projectsData = [
     tech: "React • MongoDB • Express • Node.js",
     category: "Full Stack",
     image: "https://www.clappia.com/blog/navigating-logistics-understanding-the-difference-between-dispatch-and-shipment",
+    github: "https://github.com/Kousik8436/Movetto.git",
     live: "https://movetto.vercel.app/"
   },
   {
