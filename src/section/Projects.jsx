@@ -10,10 +10,19 @@ const projectsData = [
     tech: "React • MongoDB • Express • Node.js",
     category: "Full Stack",
     image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
-    live: "https://my-portfolio-orpin-eight-pp7eqvbt1p.vercel.app/"
+    live: "https://talent-iq-three-ruby.vercel.app/"
   },
   {
     id: 2,
+    title: "Movetto",
+    description: "Movetoo — A full-stack logistics and shipment management platform that streamlines order processing, shipment tracking, and delivery operations through integrated shipping APIs.",
+    tech: "React • MongoDB • Express • Node.js",
+    category: "Full Stack",
+    image: "https://www.clappia.com/blog/navigating-logistics-understanding-the-difference-between-dispatch-and-shipment",
+    live: "https://movetto.vercel.app/"
+  },
+  {
+    id: 3,
     title: "Kousik's Food Studio",
     description: "A real-time food delivery app with live order tracking and interactive maps.",
     tech: "React • MongoDB • Express • Node.js",
@@ -23,7 +32,7 @@ const projectsData = [
     live: "https://resturant-application-frontend.vercel.app/"
   },
   {
-    id: 3,
+    id: 4,
     title: "Product Cart Web Site",
     description: "A dynamic e-commerce platform with AI-powered product recommendations.",
     tech: "React • MongoDB • Express • Node.js",
@@ -33,7 +42,7 @@ const projectsData = [
     live: "https://techcart-2.onrender.com/"
   },
   {
-    id: 4,
+    id: 5,
     title: "J.A.R.V.I.S AI Desktop Assistant",
     description: "An AI-powered desktop assistant with voice recognition and task automation.",
     tech: "Python • SpeechRecognition • pyttsx3 • OpenAI API • LLM Integration • Prompt Engineering",
@@ -43,7 +52,7 @@ const projectsData = [
     live: "https://drive.google.com/file/d/1ulZwID8uMUWT8dYJcefzLRXaUMl9Kl6w/view?usp=drivesdk"
   },
   {
-    id: 5,
+    id: 6,
     title: "Gamified Learning Platform",
     description: "An interactive learning platform that gamifies education with quizzes, badges, and leaderboards.",
     tech: "React • MongoDB • Express • Node.js",
@@ -53,7 +62,7 @@ const projectsData = [
     live: "https://saheb20004.github.io/Edu-App/"
   },
   {
-    id: 6,
+    id: 7,
     title: "ThinkBoard Note App",
     description: "A note-taking app with CRUD operations and user authentication.",
     tech: "React • MongoDB • Express • Node.js",
@@ -63,7 +72,7 @@ const projectsData = [
     live: "https://thinkboard-frontend-i348.onrender.com/"
   },
   {
-    id: 7,
+    id: 8,
     title: "Customer Churn Prediction with ANN",
     description: "A machine learning model to predict customer churn using an Artificial Neural Network.",
     tech: "Python • TensorFlow • Keras • Scikit-learn • Data Visualization • ANN",
@@ -73,7 +82,7 @@ const projectsData = [
     live: "https://ann-churn-probability.onrender.com/"
   },
   {
-    id: 8,
+    id: 9,
     title: "Food Delivery E-Commerce Platform",
     description: "A food delivery platform with AI-powered chat support and real-time order tracking.",
     tech: "React • MongoDB • Express • Node.js • Stripe • Cloudinary",
@@ -83,7 +92,7 @@ const projectsData = [
     live: "https://farm2home-grocery-app.onrender.com/"
   },
   {
-    id: 9,
+    id: 10,
     title: "KOSMOSAI Assistant",
     description: "An AI assistant that provides weather updates, news summaries, and personalized recommendations.",
     tech: "• React • Gemini API • Axios",
@@ -93,7 +102,7 @@ const projectsData = [
     live: "https://kosmosai.netlify.app/"
   },
   {
-    id: 10,
+    id: 11,
     title: "Brutal Startup Idea Validator",
     description: "An AI-powered tool that evaluates startup ideas based on market trends, competition, and potential profitability.",
     tech: "Python • Streamlit • OpenAI API • LLM Integration • Prompt Engineering",
@@ -103,7 +112,7 @@ const projectsData = [
     live: "https://startupvalidator.streamlit.app/"
   },
   {
-    id: 11,
+    id: 12,
     title: "Typing Speed Tester",
     description: "A web app to test and improve your typing speed with real-time feedback.",
     tech: "React • Hooks • Tailwind CSS",
@@ -113,7 +122,7 @@ const projectsData = [
     live: "https://typingspeedkousik.netlify.app/"
   },
   {
-    id: 12,
+    id: 13,
     title: "LSTM Sentiment Analysis - IMDB Reviews",
     description: "A sentiment analysis model that classifies movie reviews as positive or negative using a Long Short-Term Memory (LSTM) network.",
     tech: "Python • TensorFlow • Keras • Scikit-learn • Data Visualization • LSTM • Natural Language Processing",
@@ -123,7 +132,7 @@ const projectsData = [
     live: "https://lstm-sentiment-analysis-yjbz.onrender.com/"
   },
   {
-    id: 13,
+    id: 14,
     title: "Queue Management System",
     description: "A web app to manage queues in real-time with features like ticket generation and estimated wait times.",
     tech: "React • WebSockets • Node.js • Express",
@@ -133,7 +142,7 @@ const projectsData = [
     live: "https://queuemanagebykousik.netlify.app/"
   },
   {
-    id: 14,
+    id: 15,
     title: "IMDB Sentiment Analysis with RNN",
     description: "A sentiment analysis model that classifies movie reviews as positive or negative using a Recurrent Neural Network.",
     tech: "Python • TensorFlow • Keras • Scikit-learn • Data Visualization • RNN • Natural Language Processing",
@@ -143,7 +152,7 @@ const projectsData = [
     live: "https://rnn-project.onrender.com/"
   },
   {
-    id: 15,
+    id: 16,
     title: "Mood-Based Music Player",
     description: "A music player that recommends songs based on the user's current mood using AI algorithms.",
     tech: "React • Hooks • Tailwind CSS",
@@ -153,7 +162,7 @@ const projectsData = [
     live: "https://moodbasedmusickousik.netlify.app/"
   },
   {
-    id: 16,
+    id: 17,
     title: "Digital Clock",
     description: "A sleek digital clock web app that displays the current time with customizable themes and formats.",
     tech: "React • Hooks • Tailwind CSS",
@@ -163,7 +172,7 @@ const projectsData = [
     live: "https://digitalclockbykousik.netlify.app/"
   },
   {
-    id: 17,
+    id: 18,
     title: "Advanced To Do List",
     description: "An advanced to-do list app with features like task prioritization, deadlines, and progress tracking.",
     tech: "HTML • CSS • JavaScript",
@@ -173,7 +182,7 @@ const projectsData = [
     live: "https://advancedtodolistbykousik.netlify.app/"
   },
   {
-    id: 18,
+    id: 19,
     title: "Career Suggestion App",
     description: "An AI-powered career suggestion app that provides personalized career recommendations based on user input and preferences.",
     tech: "React • Hooks • Tailwind CSS",
