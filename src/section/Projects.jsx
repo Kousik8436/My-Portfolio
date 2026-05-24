@@ -19,7 +19,7 @@ const projectsData = [
     description: "Movetoo — A full-stack logistics and shipment management platform that streamlines order processing, shipment tracking, and delivery operations through integrated shipping APIs.",
     tech: "React • MongoDB • Express • Node.js",
     category: "Full Stack",
-    image: "https://www.clappia.com/blog/navigating-logistics-understanding-the-difference-between-dispatch-and-shipment",
+    image: "https://cdn.prod.website-files.com/6209ea9aee1f965d7fce7c19/6549e52943c26955e3fb9516_xpo%20logistics.jpg",
     github: "https://github.com/Kousik8436/Movetto.git",
     live: "https://movetto.vercel.app/"
   },
