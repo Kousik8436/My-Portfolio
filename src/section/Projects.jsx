@@ -25,6 +25,16 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "AI Powered Habit Tracker",
+    description: "A habit tracking app that uses AI to provide personalized recommendations and insights based on user behavior.",
+    tech: "React • MongoDB • Express • Node.js • Gemini API • OpenAI API • LLM Integration • Prompt Engineering",
+    category: "Full Stack",
+    image: "https://images.unsplash.com/photo-1545389336-cf090694435e?w=800&h=600&fit=crop",
+    github: "https://github.com/Kousik8436/AI-Powered-Habit-Tracker.git",
+    live: "https://ai-powered-habit-tracker-cnmi.vercel.app/"
+  },
+  {
+    id: 4,
     title: "Kousik's Food Studio",
     description: "A real-time food delivery app with live order tracking and interactive maps.",
     tech: "React • MongoDB • Express • Node.js",
@@ -32,16 +42,6 @@ const projectsData = [
     image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop",
     github: "https://github.com/Kousik8436/Resturant-Application-Backend.git",
     live: "https://resturant-application-frontend.vercel.app/"
-  },
-  {
-    id: 4,
-    title: "Product Cart Web Site",
-    description: "A dynamic e-commerce platform with AI-powered product recommendations.",
-    tech: "React • MongoDB • Express • Node.js",
-    category: "Full Stack",
-    image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=600&fit=crop",
-    github: "https://github.com/Kousik8436/TechCart.git",
-    live: "https://techcart-2.onrender.com/"
   },
   {
     id: 5,
@@ -63,15 +63,15 @@ const projectsData = [
     github: "https://github.com/Kousik8436",
     live: "https://saheb20004.github.io/Edu-App/"
   },
-  {
+    {
     id: 7,
-    title: "ThinkBoard Note App",
-    description: "A note-taking app with CRUD operations and user authentication.",
-    tech: "React • MongoDB • Express • Node.js",
-    category: "Full Stack",
-    image: "https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&h=600&fit=crop",
-    github: "https://github.com/Kousik8436/ThinkBoard.git",
-    live: "https://thinkboard-frontend-i348.onrender.com/"
+    title: "Student Mental Health Score Checker",
+    description: "Using an Artificial Neural Network (ANN) to predict the mental health score of students based on various factors.",
+    tech: "Python • Machine Learning • TensorFlow • Keras • Scikit-learn • Data Visualization • ANN",
+    category: "GenAI",
+    image: "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=800&h=600&fit=crop",
+    github: "https://github.com/Kousik8436/Student-Mental-Score-Checker.git",
+    live: "https://student-mental-score-checker-1.onrender.com/"
   },
   {
     id: 8,
@@ -83,15 +83,15 @@ const projectsData = [
     github: "https://github.com/Kousik8436/ANN-Churn-Probability.git",
     live: "https://ann-churn-probability.onrender.com/"
   },
-  {
+    {
     id: 9,
-    title: "Food Delivery E-Commerce Platform",
-    description: "A food delivery platform with AI-powered chat support and real-time order tracking.",
-    tech: "React • MongoDB • Express • Node.js • Stripe • Cloudinary",
-    category: "Full Stack",
-    image: "https://images.unsplash.com/photo-1526367790999-0150786686a2?w=800&h=600&fit=crop",
-    github: "https://github.com/Kousik8436/Farm2Home-Grocery-App.git",
-    live: "https://farm2home-grocery-app.onrender.com/"
+    title: "Heart Disease Prediction",
+    description: "A machine learning model to predict the likelihood of heart disease based on various health indicators.",
+    tech: "Python • TensorFlow • Keras • Scikit-learn • Data Visualization • ANN • Streamlit • LLM Integration • Prompt Engineering",
+    category: "GenAI",
+    image: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=800&h=600&fit=crop",
+    github: "https://github.com/Kousik8436/Heart-Disease-Predictor.git",
+    live: "https://heart-disease-predictorgit-zerke8.streamlit.app/"
   },
   {
     id: 10,
@@ -183,25 +183,13 @@ const projectsData = [
     github: "https://github.com/Kousik8436/Advanced-ToDo-List-App.git",
     live: "https://advancedtodolistbykousik.netlify.app/"
   },
-  {
-    id: 19,
-    title: "Career Suggestion App",
-    description: "An AI-powered career suggestion app that provides personalized career recommendations based on user input and preferences.",
-    tech: "React • Hooks • Tailwind CSS",
-    category: "React",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
-    github: "https://github.com/Kousik8436/Career-Suggestion-Page.git",
-    live: "https://careersuggestionkousik.netlify.app/"
-  },
 ];
 
 export default function Projects() {
-  const [activeFilter, setActiveFilter] = useState("All");
+  const [activeFilter, setActiveFilter] = useState("Full Stack");
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const filteredProjects = activeFilter === "All" 
-    ? projectsData 
-    : projectsData.filter(project => project.category === activeFilter);
+  const filteredProjects = projectsData.filter(project => project.category === activeFilter);
 
   const handlePrev = () => {
     setCurrentIndex((prev) => (prev === 0 ? filteredProjects.length - 1 : prev - 1));
@@ -233,7 +221,7 @@ export default function Projects() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          {["All", "Full Stack", "React", "GenAI"].map((filter) => (
+          {["Full Stack", "GenAI", "React"].map((filter) => (
             <button
               key={filter}
               onClick={() => { setActiveFilter(filter); setCurrentIndex(0); }}

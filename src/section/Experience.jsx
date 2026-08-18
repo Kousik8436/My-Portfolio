@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const experiences = [
   {
-    role: "B.Tech in Computer Science & Engineering (CGPA: 9.01/10)",
+    role: "B.Tech in Computer Science & Engineering (CGPA: 9.05/10)",
     school: "Haldia Institute of Technology, Haldia",
     duration: "2023 - 2027",
     description: "Focused on Web Development, GanAI, DSA, and real-world projects."
