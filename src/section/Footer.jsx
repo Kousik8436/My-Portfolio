@@ -6,7 +6,9 @@ import {
   FaLinkedinIn,
   FaInstagram,
   FaGithub,
+  FaFacebook,
 } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 
 /**
  * Social media links configuration
@@ -18,6 +20,8 @@ const socials = [
   { Icon: FaLinkedinIn, label: "LinkedIn", href: "https://www.linkedin.com/in/kousik-maity-b82a10285" },
   { Icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/kousik_kartik_8436?utm_source=qr" },
   { Icon: FaGithub, label: "GitHub", href: "https://github.com/Kousik8436"},
+  { Icon: FaFacebook, label: "Facebook", href: "https://www.facebook.com/kousik.maity.35912"},
+  { Icon: SiLeetcode, label: "LeetCode", href: "https://leetcode.com/u/kousikmaity8436/"},
 ];
 
 /**

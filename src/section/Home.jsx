@@ -2,14 +2,14 @@ import { useMemo } from "react";
 import ParticlesBackground from "../components/ParticlesBackground";
 import { delay, hover, motion, scale } from "framer-motion";
 import React from "react";
-import { FaLinkedin, FaGithub, FaInstagram, FaFacebook, FaDiscord } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaDiscord } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 import Kousik from "../assets/Kousik2.png";
 
 const socials = [
   {Icon : FaGithub, label : "Github", href: "https://github.com/Kousik8436"},
   {Icon : FaLinkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/kousik-maity-b82a10285"},
-  {Icon : FaInstagram, label: "Instagram", href: "https://www.instagram.com/kousik_kartik_8436?utm_source=qr"},
-  {Icon : FaFacebook, label: "Facebook", href: "https://www.facebook.com/kousik.maity.35912"},
+  {Icon : SiLeetcode, label: "LeetCode", href: "https://leetcode.com/u/kousikmaity8436/"},
   {Icon : FaDiscord, label: "Discord", href: "https://discord.com/users/kousikmaity0709"},
 ]
 
