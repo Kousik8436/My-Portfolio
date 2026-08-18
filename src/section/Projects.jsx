@@ -282,6 +282,7 @@ export default function Projects() {
                 <h3 className="text-4xl md:text-5xl font-bold mb-4">{filteredProjects[currentIndex].title}</h3>
                 <p className="text-lg text-[#1cd8d2] mb-6">{filteredProjects[currentIndex].tech}</p>
                 <p className="text-xl text-gray-300 leading-relaxed mb-6">{filteredProjects[currentIndex].description}</p>
+                <div className="flex flex-wrap gap-3">
                 <motion.a 
                   href={filteredProjects[currentIndex].github}
                   target="_blank"
@@ -293,6 +294,17 @@ export default function Projects() {
                   <FaGithub className="text-2xl" />
                   View Code
                 </motion.a>
+                <motion.a 
+                  href={filteredProjects[currentIndex].live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-white bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] px-6 py-3 rounded-full hover:opacity-90 transition-all"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  Live Demo
+                </motion.a>
+                </div>
               </motion.div>
             </AnimatePresence>
             
