@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaChevronLeft, FaChevronRight, FaGithub } from "react-icons/fa";
+import { FaChevronLeft, FaChevronRight, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projectsData = [
   {
@@ -298,11 +298,12 @@ export default function Projects() {
                   href={filteredProjects[currentIndex].live}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 text-white bg-gradient-to-r from-[#1cd8d2] via-[#00bf8f] to-[#302b63] px-6 py-3 rounded-full hover:opacity-90 transition-all"
+                  className="inline-flex items-center gap-2 text-white bg-gray-800 px-6 py-3 rounded-full hover:bg-gray-700 transition-all"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  Live Demo
+                  <FaExternalLinkAlt className="text-2xl" />
+                  Live Deploy
                 </motion.a>
                 </div>
               </motion.div>
