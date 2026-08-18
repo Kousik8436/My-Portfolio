@@ -89,7 +89,7 @@ const projectsData = [
     description: "A machine learning model to predict the likelihood of heart disease based on various health indicators.",
     tech: "Python • TensorFlow • Keras • Scikit-learn • Data Visualization • ANN • Streamlit • LLM Integration • Prompt Engineering",
     category: "GenAI",
-    image: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=800&h=600&fit=crop",
+    image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=600&fit=crop",
     github: "https://github.com/Kousik8436/Heart-Disease-Predictor.git",
     live: "https://heart-disease-predictorgit-zerke8.streamlit.app/"
   },
