@@ -178,7 +178,7 @@ const projectsData = [
     title: "Advanced To Do List",
     description: "An advanced to-do list app with features like task prioritization, deadlines, and progress tracking.",
     tech: "HTML • CSS • JavaScript",
-    category: "Full Stack",
+    category: "React",
     image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop",
     github: "https://github.com/Kousik8436/Advanced-ToDo-List-App.git",
     live: "https://advancedtodolistbykousik.netlify.app/"
