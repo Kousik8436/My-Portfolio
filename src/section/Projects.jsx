@@ -110,8 +110,8 @@ const projectsData = [
     tech: "Python • Streamlit • OpenAI API • LLM Integration • Prompt Engineering",
     category: "GenAI",
     image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop",
-    github: "https://github.com/arnab06082004/StartUp_Validator.git",
-    live: "https://startupvalidator.streamlit.app/"
+    github: "https://github.com/Kousik8436/StartUp-Idea-Validator.git",
+    live: "https://startup-idea-validatorgit-k.streamlit.app/"
   },
   {
     id: 12,
