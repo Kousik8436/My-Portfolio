@@ -23,3 +23,12 @@ dist-ssr
 *.sln
 *.sw?
 .env
+.env.*
+!.env.example
+.next/
+out/
+*.tsbuildinfo
+playwright-report/
+test-results/
+.sites-local/
+artifacts/
