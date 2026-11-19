@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Talent IQ",
+    "description": "This is a Real time Coding Interview Preparation Platform with AI-powered coding challenges and personalized feedback.",
+    "tech": "React • MongoDB • Express • Node.js",
+    "category": "Full Stack",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/Talent-IQ.git",
+    "live": "https://talent-iq-three-ruby.vercel.app/"
+  },
+  {
+    "id": 2,
+    "title": "Movetto",
+    "description": "Movetoo — A full-stack logistics and shipment management platform that streamlines order processing, shipment tracking, and delivery operations through integrated shipping APIs.",
+    "tech": "React • MongoDB • Express • Node.js",
+    "category": "Full Stack",
+    "image": "https://cdn.prod.website-files.com/6209ea9aee1f965d7fce7c19/6549e52943c26955e3fb9516_xpo%20logistics.jpg",
+    "github": "https://github.com/Kousik8436/Movetto.git",
+    "live": "https://movetto.vercel.app/"
+  },
+  {
+    "id": 3,
+    "title": "AI Powered Habit Tracker",
+    "description": "A habit tracking app that uses AI to provide personalized recommendations and insights based on user behavior.",
+    "tech": "React • MongoDB • Express • Node.js • Gemini API • OpenAI API • LLM Integration • Prompt Engineering",
+    "category": "Full Stack",
+    "image": "https://images.unsplash.com/photo-1545389336-cf090694435e?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/AI-Powered-Habit-Tracker.git",
+    "live": "https://ai-powered-habit-tracker-cnmi.vercel.app/"
+  },
+  {
+    "id": 4,
+    "title": "Kousik's Food Studio",
+    "description": "A real-time food delivery app with live order tracking and interactive maps.",
+    "tech": "React • MongoDB • Express • Node.js",
+    "category": "Full Stack",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/Resturant-Application-Backend.git",
+    "live": "https://resturant-application-frontend.vercel.app/"
+  },
+  {
+    "id": 5,
+    "title": "J.A.R.V.I.S AI Desktop Assistant",
+    "description": "An AI-powered desktop assistant with voice recognition and task automation.",
+    "tech": "Python • SpeechRecognition • pyttsx3 • OpenAI API • LLM Integration • Prompt Engineering",
+    "category": "GenAI",
+    "image": "https://www.codewithrandom.com/wp-content/uploads/2024/04/image-2-1024x621.png",
+    "github": "https://github.com/Kousik8436/J.A.R.V.I.S-Ai-Desktop-Assistant.git",
+    "live": "https://drive.google.com/file/d/1ulZwID8uMUWT8dYJcefzLRXaUMl9Kl6w/view?usp=drivesdk"
+  },
+  {
+    "id": 6,
+    "title": "Gamified Learning Platform",
+    "description": "An interactive learning platform that gamifies education with quizzes, badges, and leaderboards.",
+    "tech": "React • MongoDB • Express • Node.js",
+    "category": "Full Stack",
+    "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436",
+    "live": "https://saheb20004.github.io/Edu-App/"
+  },
+  {
+    "id": 7,
+    "title": "Student Mental Health Score Checker",
+    "description": "Using an Artificial Neural Network (ANN) to predict the mental health score of students based on various factors.",
+    "tech": "Python • Machine Learning • TensorFlow • Keras • Scikit-learn • Data Visualization • ANN",
+    "category": "GenAI",
+    "image": "https://images.unsplash.com/photo-1527689368864-3a821dbccc34?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/Student-Mental-Score-Checker.git",
+    "live": "https://student-mental-score-checker-1.onrender.com/"
+  },
+  {
+    "id": 8,
+    "title": "Customer Churn Prediction with ANN",
+    "description": "A machine learning model to predict customer churn using an Artificial Neural Network.",
+    "tech": "Python • TensorFlow • Keras • Scikit-learn • Data Visualization • ANN",
+    "category": "GenAI",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/ANN-Churn-Probability.git",
+    "live": "https://ann-churn-probability.onrender.com/"
+  },
+  {
+    "id": 9,
+    "title": "Heart Disease Prediction",
+    "description": "A machine learning model to predict the likelihood of heart disease based on various health indicators.",
+    "tech": "Python • TensorFlow • Keras • Scikit-learn • Data Visualization • ANN • Streamlit • LLM Integration • Prompt Engineering",
+    "category": "GenAI",
+    "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/Heart-Disease-Predictor.git",
+    "live": "https://heart-disease-predictorgit-zerke8.streamlit.app/"
+  },
+  {
+    "id": 10,
+    "title": "KOSMOSAI Assistant",
+    "description": "An AI assistant that provides weather updates, news summaries, and personalized recommendations.",
+    "tech": "• React • Gemini API • Axios",
+    "category": "React",
+    "image": "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/KosmosAI-chatbot.git",
+    "live": "https://kosmosai.netlify.app/"
+  },
+  {
+    "id": 11,
+    "title": "Brutal Startup Idea Validator",
+    "description": "An AI-powered tool that evaluates startup ideas based on market trends, competition, and potential profitability.",
+    "tech": "Python • Streamlit • OpenAI API • LLM Integration • Prompt Engineering",
+    "category": "GenAI",
+    "image": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/StartUp-Idea-Validator.git",
+    "live": "https://startup-idea-validatorgit-k.streamlit.app/"
+  },
+  {
+    "id": 12,
+    "title": "Typing Speed Tester",
+    "description": "A web app to test and improve your typing speed with real-time feedback.",
+    "tech": "React • Hooks • Tailwind CSS",
+    "category": "React",
+    "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/Typing-Speed-Tester.git",
+    "live": "https://typingspeedkousik.netlify.app/"
+  },
+  {
+    "id": 13,
+    "title": "LSTM Sentiment Analysis - IMDB Reviews",
+    "description": "A sentiment analysis model that classifies movie reviews as positive or negative using a Long Short-Term Memory (LSTM) network.",
+    "tech": "Python • TensorFlow • Keras • Scikit-learn • Data Visualization • LSTM • Natural Language Processing",
+    "category": "GenAI",
+    "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/LSTM-Sentiment-Analysis.git",
+    "live": "https://lstm-sentiment-analysis-yjbz.onrender.com/"
+  },
+  {
+    "id": 14,
+    "title": "Queue Management System",
+    "description": "A web app to manage queues in real-time with features like ticket generation and estimated wait times.",
+    "tech": "React • WebSockets • Node.js • Express",
+    "category": "React",
+    "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/Queue-Management-System.git",
+    "live": "https://queuemanagebykousik.netlify.app/"
+  },
+  {
+    "id": 15,
+    "title": "IMDB Sentiment Analysis with RNN",
+    "description": "A sentiment analysis model that classifies movie reviews as positive or negative using a Recurrent Neural Network.",
+    "tech": "Python • TensorFlow • Keras • Scikit-learn • Data Visualization • RNN • Natural Language Processing",
+    "category": "GenAI",
+    "image": "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/RNN-Project.git",
+    "live": "https://rnn-project.onrender.com/"
+  },
+  {
+    "id": 16,
+    "title": "Mood-Based Music Player",
+    "description": "A music player that recommends songs based on the user's current mood using AI algorithms.",
+    "tech": "React • Hooks • Tailwind CSS",
+    "category": "React",
+    "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/Mood-Based-Music-Page.git",
+    "live": "https://moodbasedmusickousik.netlify.app/"
+  },
+  {
+    "id": 17,
+    "title": "Digital Clock",
+    "description": "A sleek digital clock web app that displays the current time with customizable themes and formats.",
+    "tech": "React • Hooks • Tailwind CSS",
+    "category": "React",
+    "image": "https://images.unsplash.com/photo-1501139083538-0139583c060f?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/Digital-Clock-.git",
+    "live": "https://digitalclockbykousik.netlify.app/"
+  },
+  {
+    "id": 18,
+    "title": "Advanced To Do List",
+    "description": "An advanced to-do list app with features like task prioritization, deadlines, and progress tracking.",
+    "tech": "HTML • CSS • JavaScript",
+    "category": "React",
+    "image": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=600&fit=crop",
+    "github": "https://github.com/Kousik8436/Advanced-ToDo-List-App.git",
+    "live": "https://advancedtodolistbykousik.netlify.app/"
+  }
+]
