@@ -85,6 +85,8 @@ npx playwright install chromium
 
 ## Deployment
 
-`npm run build` creates a fully static Next.js export in `out/`. Configure hosting to run `npm ci` and `npm run build`, and publish `out/`. On Vercel, select Next.js as the framework if the existing project was previously configured for Vite. Add the four environment variables to the build environment and rebuild after changing them.
+`npm run build` creates a fully static Next.js export in `out/`. For static hosting, run `npm ci` and `npm run build`, and publish `out/`.
+
+On Vercel, the committed `vercel.json` selects the Next.js framework, runs `npm run build`, and sets `outputDirectory` to `null` so Vercel automatically detects the Next.js output. This overrides an old `dist` setting left over from Vite. In Project Settings → Build and Deployment, select **Next.js** and turn off the **Output Directory** override. Vercel's Next.js integration handles the static export automatically; do not set its output directory to `dist` or `out`. If you see `[STATIC_BUILD_NO_OUT_DIR]`, deploy a new commit containing `vercel.json`; retrying an older deployment uses its older configuration. Add the four environment variables to the build environment and rebuild after changing them.
 
 The `.openai/hosting.json` file identifies the private Sites preview and its `out` directory. It does not change the GitHub remote or publish this repository to GitHub.
